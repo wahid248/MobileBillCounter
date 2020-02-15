@@ -27,8 +27,8 @@ namespace MobileBillCounter
                 end= Console.ReadLine();
             } while (!Regex.Match(end, regex, RegexOptions.IgnoreCase).Success);
 
-            var startTime = DateTime.ParseExact(start, "yyyy-MM-dd HH:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
-            var endTime = DateTime.ParseExact(end, "yyyy-MM-dd HH:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
+            var startTime = DateTime.ParseExact(start, "yyyy-MM-dd hh:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
+            var endTime = DateTime.ParseExact(end, "yyyy-MM-dd hh:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
             var totalSeconds = (endTime - startTime).TotalSeconds;
             var currentTime = startTime;
 
