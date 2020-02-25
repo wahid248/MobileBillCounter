@@ -19,6 +19,7 @@ Note: If pulse overlap (peak to off-peak or off-peak to peak) then take peak hou
 ## Sample input
 
 Start time: 2019-08-31 08:59:13 am
+
 End time: 2019-08-31 09:00:39 am
 
 ## Breakdown
